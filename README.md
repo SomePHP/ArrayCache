@@ -36,7 +36,7 @@ mkdir tmp; chmod 777 tmp;
 The following examples require a writable "tmp" folder in the directory where
 the script was called from.
 
-### Example #1 Basic. Persistance: save an array.
+### Example #1 Basic. Persistence: save an array.
 ```php
 <?php
 require_once 'ArrayCache.php';
@@ -46,7 +46,7 @@ $array = array_fill(0, 10000000, 'Yo');
 Cache::set('my_var', $array);
 ```
 
-### Example #2 Basic. Persistance: load an array.
+### Example #2 Basic. Persistence: load an array.
 ```php
 <?php
 require_once 'ArrayCache.php';
