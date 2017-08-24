@@ -1,0 +1,19 @@
+{
+  "name": "somephp/arraycache",
+  "description": "Quickly store and retrieve arrays. Persist data with two methods, set and get. Enabling OPcache is recommended for speed.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tyler Gillispie"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "classmap": ["src"]
+  },
+  "require-dev": {
+  }
+}
